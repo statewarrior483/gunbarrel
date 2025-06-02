@@ -1,0 +1,31 @@
+var multiForm;
+multiForm = {
+    init: function(id) {
+
+        var multi = $('#' + id);
+        if (multi.length > 0) {
+
+            multi.attr('data-page','0');
+            var forms = multi.find('form');
+
+            if (forms.length > 0) {
+                var idx = 0;
+                forms.each(function(){
+                    var form = $(this);
+                    if (idx == 0) {
+                        form.addClass('active');
+                    }
+
+                    form.append($('<input type="hidden" name="form_guid">').val(multi.attr('data-form-guid')));
+                    form.attr('data-multi','true');
+                    form.attr('data-multi-page',idx);
+
+                    idx++;
+                });
+            }
+
+        }
+
+
+    }
+};
