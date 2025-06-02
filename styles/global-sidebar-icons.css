@@ -1,0 +1,36 @@
+/* ICON BAR BEGINS */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 9; }
+  @media (max-width: 1440px) {
+    .icon-bar {
+      max-width: 50px; } }
+  @media (max-width: 1440px) {
+    .icon-bar img {
+      width: 100%;
+      max-width: 15px; } }
+
+/* Style the icon bar links */
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+  border-bottom: 1px solid #fff;
+  font-size: 20px; }
+.icon-bar a:last-child {border-bottom: unset;}
+  @media (max-width: 1440px) {
+    .icon-bar a {
+      padding: 12px; } }
+
+.icon-bar {color: #FFFFFF; overflow: hidden; border-top-right-radius: 15px; border-bottom-right-radius: 15px; box-shadow: 0px 0px 30px rgb(0 0 0 / 15%); border: 1px solid white;border-left: none;z-index: 999; }
+.icon-bar .appointment, .icon-bar .phone, .icon-bar .book, .icon-bar .cart, .icon-bar .shop  {background: #e2a55e;}
+.icon-bar .appointment:hover, .icon-bar .phone:hover, .icon-bar .book:hover, .icon-bar .cart:hover, .icon-bar .shop:hover  {background: #5e718b;}
+
+/* ICON BAR ENDS */

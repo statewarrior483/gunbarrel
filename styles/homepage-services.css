@@ -1,0 +1,586 @@
+.ry-services.style1 .ry-flex {
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.ry-services.style1 .ry-flex .ry-each {
+	width: calc(50% - 5px);
+}
+.ry-services.style1 .ry-flex .ry-each .photo {
+	position: relative;
+	padding-bottom: 56.25%;
+}
+.ry-services.style1 .ry-flex .ry-each .photo:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background: #5e718b77;*/
+	background: linear-gradient(to bottom, transparent, #5e718b99, transparent);
+	z-index: 5;
+}
+.ry-services.style1 .ry-flex .ry-each .photo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.ry-services.style1 .ry-flex .ry-each .title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9;
+}
+.ry-services.style1 .ry-flex .ry-each .title div {
+	padding: 40px 0;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 300;
+	line-height: 1.3;
+}
+
+.ry-services.style1 .ry-flex .ry-each .link, 
+.ry-services.style1 .ry-flex .ry-each .link a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	opacity: 0;
+}
+.ry-services.style1 .ry-flex .ry-each .title div:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 320px;
+	height: 100%;
+	border: 1px solid #5e718b;
+	transform: translate(-50%, 0);
+	border-left: 0;
+	border-right: 0;
+	z-index: 9;
+}
+.ry-services.style1 .ry-flex .ry-each .button-svg svg {
+	width: 20px;
+	fill: #fff;
+}
+.ry-services.style1 .ry-flex .ry-each .button-svg {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	z-index: 9;
+	top: calc(50% + 80px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.ry-services.style1 .ry-flex .ry-each::before,
+.ry-services.style1 .ry-flex .ry-each::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	transition: all .7s ease;
+	border-radius: 0;
+	z-index: 9;
+	opacity: 0;
+}
+.ry-services.style1 .ry-flex .ry-each::after {
+	box-shadow: inset 0 0 0 1px #5e718b;
+}
+.ry-services.style1 .ry-flex .ry-each::before {
+	border-radius: 0;
+}
+.ry-services.style1 .ry-flex .ry-each:hover .photo:before,
+.ry-services.style1 .ry-flex .ry-each:hover .title div:before {
+	opacity: 0;
+}
+.ry-services.style1 .ry-flex .ry-each:hover::before {
+	box-shadow: inset 0 400px 0 0 #5e718b, inset 0 -400px 0 0 #5e718b;
+	opacity: .9;
+}
+.ry-services.style1 .ry-flex .ry-each:hover .button-svg {
+	opacity: 1;
+	transition: .2s;
+}
+@media (max-width: 1680px) {
+	.ry-services.style1 .ry-flex .ry-each .title div {
+		font-size: 20px;
+		padding: 25px 0;
+		letter-spacing: 1px;
+	}
+}
+@media (max-width: 1366px) {
+	.ry-services.style1 .ry-flex .ry-each .photo {
+		position: relative;
+		padding-bottom: 75%;
+	}
+}
+@media (max-width: 991px) {
+	.ry-services.style1 .ry-flex .ry-each .title div:before {
+		width: 240px;
+	}
+}
+@media (max-width: 768px) {
+	.ry-services.style1 .ry-flex .ry-each .title div {
+		font-size: 18px;
+	}
+}
+@media (max-width: 620px) {
+	.ry-services.style1 .ry-flex .ry-each {
+		width: 100%;
+	}
+	.ry-services.style1 .ry-flex .ry-each .photo {
+		position: relative;
+	/*padding-bottom: 56.25%;*/
+	}
+}
+
+/* END STYLE 1 */
+.ry-services.style2  * {
+    flex: unset !important;
+}
+.ry-services.style2 .background-section, 
+.ry-services.style2 .background-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.ry-services.style2 .background-section {
+    opacity: .9;
+}
+
+.ry-services.style2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background: ;
+    z-index: -1;
+    opacity: .9;
+}
+.ry-services.style2 {
+	padding: 160px 0;
+}
+.ry-services.style2 .section-headline {
+	margin-bottom: 80px;
+}
+.ry-services.style2 .section-headline .span-1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 5px;
+	display: block;
+}
+.ry-services.style2 .section-headline h2 {
+	font-size: 230%;
+	text-transform: uppercase;
+}
+.ry-services.style2 .ry-content .content {
+	max-width: 1280px;
+}
+.ry-services.style2 .ry-content {
+	display: flex;
+	justify-content: center;
+}
+.ry-services.style2 .block-count-7,
+.ry-services.style2 .block-count-6,
+.ry-services.style2 .block-count-5,
+.ry-services.style2 .block-count-4,
+.ry-services.style2 .block-count-3 {
+	margin-left: -30px;
+	width: calc(100% + 30px);
+}
+.ry-services.style2 .block-count-7 .ry-each,
+.ry-services.style2 .block-count-6 .ry-each,
+.ry-services.style2 .block-count-5 .ry-each,
+.ry-services.style2 .block-count-4 .ry-each,
+.ry-services.style2 .block-count-3 .ry-each {
+	margin-left: 30px;
+	width: calc(33.33% - 30px);
+	display: flex;
+}
+.ry-services.style2 .block-count-7 .ry-each .block-group,
+.ry-services.style2 .block-count-6 .ry-each .block-group, 
+.ry-services.style2 .block-count-5 .ry-each .block-group,
+.ry-services.style2 .block-count-4 .ry-each .block-group,
+.ry-services.style2 .block-count-3 .ry-each .block-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.ry-services.style2 .block-count-7 .ry-each .each-block,
+.ry-services.style2 .block-count-6 .ry-each .each-block,
+.ry-services.style2 .block-count-5 .ry-each .each-block,
+.ry-services.style2 .block-count-4 .ry-each .each-block,
+.ry-services.style2 .block-count-3 .ry-each .each-block {
+	margin-bottom: 30px;
+}
+.ry-services.style2 .ry-each .photo {
+	position: relative;
+	padding-bottom: 100%;
+}
+.ry-services.style2 .ry-each .photo:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	z-index: 2;
+	background: linear-gradient(to bottom, #0000, #000000);
+}
+.ry-services.style2 .ry-each .photo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.ry-services.style2 .ry-each .title {
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 3;
+	transition: .4s;
+}
+.ry-services.style2 .ry-each .title div {
+	font-size: 20px;
+	color: #fff;
+}
+.ry-services.style2 .ry-each .button-svg {
+	width: 45px;
+	height: 45px;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: calc(50% + 45px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.ry-services.style2 .ry-each .button-svg svg {
+	width: 20px;
+	fill: #000;
+}
+.ry-services.style2 .ry-each .link, 
+.ry-services.style2 .ry-each .link a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	opacity: 0;
+}
+
+.ry-services.style2 .ry-each .photo:after {
+	content: "";
+	height: 0;
+	width: 100%;
+	background: #5e718b;
+	position: absolute;
+	bottom: 0;
+	transition: .4s;
+	opacity: .7;
+}
+.ry-services.style2 .ry-each .each-block:hover .photo:after {
+	height: 100%;
+}
+
+.ry-services.style2 .ry-each .each-block:hover .title {
+	bottom: 50%;
+	transition: .4s;
+}
+.ry-services.style2 .ry-each .each-block:hover .button-svg {
+	opacity: 1;
+	transition: 1.2s;
+}
+.ry-services.style2 .button-wrapper {
+	clear: both;
+	padding-top: 60px;
+}
+.ry-services.style2 .ry-btn {
+	max-width: max-content;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	margin: 0 auto;
+	color: #FFFFFF;
+	background-color: #5e718b;
+}
+
+
+@media (min-width: 1081px) {
+	/* COUNT 6 */
+	.ry-services.style2 .block-count-6 {
+		margin-top: 20%;
+	}
+	.ry-services.style2 .block-count-6 .ry-each:nth-child(2) {
+		margin-top: -33.33%;
+	}
+	.ry-services.style2 .block-count-6 ~ .button-wrapper {
+		position: relative;
+		top: -17%;
+	}
+	/* COUNT 6 */
+	
+	/* COUNT 5 */
+	.ry-services.style2 .block-count-5 .ry-each {
+		align-items: flex-start;
+	}
+	.ry-services.style2 .block-count-5 .ry-each:nth-child(1) .each-block:nth-child(2) {
+		margin-right: calc(-100% - 30px);
+	}
+	.ry-services.style2 .block-count-5 .ry-each:nth-child(3) .each-block:nth-child(2) {
+		margin-left: calc(-100% - 30px);
+	}
+	/* COUNT 5 */
+}
+@media (min-width: 1200px) {
+
+	.ry-services.style2 .block-count-4 {
+		justify-content: center;
+		margin-left: -50px;
+		width: calc(100% + 50px);
+	}
+	.ry-services.style2 .block-count-4 .ry-each {
+		margin-left: 50px;
+		width: calc(33.33% - 50px);
+		display: flex;
+	}
+	.ry-services.style2 .block-count-4 .ry-each .each-block {
+		margin-bottom: 50px;
+	}
+	.ry-services.style2 .block-count-4 ~ .button-wrapper {
+		padding-top: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.ry-services.style2 .block-count-7,
+	.ry-services.style2 .block-count-6,
+	.ry-services.style2 .block-count-5,
+	.ry-services.style2 .block-count-4,
+	.ry-services.style2 .block-count-3 {
+		margin-left: -15px;
+		width: calc(100% + 15px);
+	}
+	.ry-services.style2 .block-count-7 .ry-each,
+	.ry-services.style2 .block-count-6 .ry-each,
+	.ry-services.style2 .block-count-5 .ry-each,
+	.ry-services.style2 .block-count-4 .ry-each,
+	.ry-services.style2 .block-count-3 .ry-each {
+		margin-left: 15px;
+		width: calc(33.33% - 15px);
+	}
+	.ry-services.style2 .block-count-7 .ry-each .each-block,
+	.ry-services.style2 .block-count-6 .ry-each .each-block,
+	.ry-services.style2 .block-count-5 .ry-each .each-block,
+	.ry-services.style2 .block-count-4 .ry-each .each-block,
+	.ry-services.style2 .block-count-3 .ry-each .each-block {
+		margin-bottom: 15px;
+	}
+}
+@media (min-width: 1081px) {
+	.mobile-services {
+		display: none;
+		/*height: 0;
+		opacity: 0;*/
+	}
+	.ry-services.style2 .block-count-5 .ry-each:nth-child(2) .each-block:nth-child(2) {
+		margin-right: calc(-100% - 30px);
+	}
+}
+
+@media (max-width: 1080px) {
+	.ry-services.style2 {
+		padding: 100px 0;
+	}
+	.ry-services.style2 .ry-flex {
+		display: none;
+	}
+	.ry-services.style2 .each-block .photo {
+		position: relative;
+		padding-bottom: 100%;
+	}
+	.ry-services.style2 .each-block .photo:before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 150px;
+		z-index: 2;
+		background: linear-gradient(to bottom, #0000, #000000);
+	}
+	.ry-services.style2 .each-block .photo img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.ry-services.style2 .each-block .title {
+		position: absolute;
+		bottom: 25px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		z-index: 3;
+		transition: .4s;
+	}
+	.ry-services.style2 .each-block .title div {
+		font-size: 20px;
+		color: #fff;
+	}
+	.ry-services.style2 .each-block .link, 
+	.ry-services.style2 .each-block .link a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9;
+		opacity: 0;
+	}
+	.ry-services.style2 .each-block .button-svg {
+		display: none;
+	}
+	.mobile-services .slick-track .each-block {
+		margin-left: 25px;
+	}
+	.mobile-services .slick-list {
+		margin-left: -25px;
+	}
+	.mobile-services .slick-dots {
+		margin-top: 30px;
+		padding-left: 0;
+		list-style: none;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.mobile-services .slick-dots li {
+		margin: 0 3px;
+		height: auto;
+		line-height: initial;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-services .slick-dots li:not(.slick-active) {
+		opacity: .5;
+	}
+	.mobile-services .slick-dots button {
+		width: 12px;
+		height: 12px;
+		text-indent: -9999999px;
+		background: #5e718b;
+		border: unset;
+		box-shadow: unset;
+		border-radius: 50%;
+	}
+	.mobile-services .slick-arrow {
+		display: none !important;
+	}
+}
+
+
+@media (max-width: 992px) {.ry-services.style1 .ry-flex{flex-direction:row;}
+	.ry-services.style1 .ry-flex .ry-each-col{width: 100%;}
+	.ry-services.style1 .ry-flex .ry-each-col.ry-each-col-2{display:flex;width:100%;}
+	.ry-services.style1 .ry-flex .ry-each-col.ry-each-col-2 > .ry-each .photo{padding: unset;padding-bottom: 56.25%;}
+	.ry-services.style1 .ry-flex .ry-each-col.ry-each-col-2 .title {top: 0;left: 15%;}}
+
+
+.ry-services.style2 .ry-each .each-block {
+    overflow: hidden;
+}
+
+.ry-services.style2 .ry-each .photo:before {
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #00000099);
+}
+.ry-services.style2 .ry-each .each-block:hover .photo:before {
+    opacity: 0;
+    transition: .3s;
+}
+
+div#services-wrap .ry-services.style1>.ry-content {
+    width: 90%;
+    max-width: 1600px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 10px;
+	background: linear-gradient(to bottom, #e2a55e, #5e718b);
+}
+div#services-wrap .ry-services.style1>.ry-content:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    left: 3px;
+    top: 3px;
+    bottom: 3px;
+    right: 3px;
+    border-radius: 38px;
+}
+div#services-wrap .ry-services.style1>.ry-content>.content {
+    border-radius: 34px;
+    overflow: hidden;
+}
+div#services-wrap .ry-services.style1 {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 120px;
+	flex-direction: column;
+	gap: 60px;
+}
+
+#section-services #services-wrap {
+	padding-bottom: 80px;
+	position: relative;
+	background: #fff;
+}
+#section-services #services-wrap:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 32%;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+	background: #5e718b33;
+}

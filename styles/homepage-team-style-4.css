@@ -1,0 +1,209 @@
+.module-team.style-1 {
+    padding: 130px 0 110px;
+}
+
+.module-team.style-1 .section-headline h2 {
+    font-size: 58px;
+	font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.module-team.style-1 .ry-text p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.module-team.style-1 .ry-text .ry-btn {
+    position: absolute;
+    right: 0;
+    top: -85px;
+}
+
+.module-team.style-1 .ry-text {
+    position: relative;
+}
+
+.module-team.style-1 .ry-flex {
+    margin-left: -25px;
+    width: calc(100% + 25px);
+    display: flex;
+}
+
+.module-team.style-1 .ry-flex .ry-each {
+    margin-left: 25px;
+}
+
+.module-team.style-1 .ry-flex {
+    margin-top: 50px;
+}
+
+.module-team.style-1 .ry-flex .ry-each .photo {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.module-team.style-1 .ry-flex .ry-each .photo:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0), #00000085);
+}
+
+.module-team.style-1 .ry-flex .each-name {
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
+    color: #fff;
+	font-family: Poppins;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.module-team.style-1 .ry-flex .link, 
+.module-team.style-1 .ry-flex .link a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    opacity: 9;
+    opacity: 0;
+}
+
+.module-team.style-1 .ry-flex .ry-each:hover .photo {
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.module-team.style-1 .slick-dots {
+	position: absolute;
+	bottom: -60px;
+	padding-left: 0;
+	list-style: none;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.module-team.style-1 .slick-dots li button {
+	text-indent: -9999999px;
+	padding: 0;
+	width: 50px;
+	height: 2px;
+	box-shadow: unset;
+	border: unset;
+	background: #5e718b;
+}
+
+.module-team.style-1 .slick-dots li {
+	margin: 0 5px;
+	opacity: .5;
+}
+
+.module-team.style-1 .slick-dots li.slick-active {
+	opacity: 1;
+}
+.module-team.style-1 .content .ry-btn {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+@media (max-width: 1680px) {
+	.module-team.style-1 .ry-flex {
+		margin-left: -10px;
+		width: calc(100% + 10px);
+		display: flex;
+	}
+	.module-team.style-1 .ry-flex.block-count-6 .ry-each {
+		width: calc(16.66666666666667% - 10px);
+		margin-left: 10px;
+	}
+	.module-team.style-1 .ry-flex.block-count-5 .ry-each {
+		width: calc(20% - 10px);
+		margin-left: 10px;
+	}
+	.module-team.style-1 .ry-flex.block-count-4 .ry-each {
+		width: calc(25% - 10px);
+		margin-left: 10px;
+	}
+	.module-team.style-1 .ry-flex.block-count-3 .ry-each {
+		width: calc(33.33% - 10px);
+		margin-left: 10px;
+	}
+	.module-team.style-1 .ry-flex.block-count-2 .ry-each {
+		width: calc(50% - 10px);
+		margin-left: 10px;
+	}
+	.module-team.style-1 .section-headline h2 {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.module-team.style-1 {
+		padding: 60px 0;
+	}
+	
+	.module-team.style-1 .ry-text p,
+	.module-team.style-1 .section-headline h2 {
+		text-align: center;
+	}
+	.module-team.style-1 .section-headline h2 {
+		font-size: 46px;
+	}
+	.module-team.style-1 .ry-text .ry-btn {
+		position: relative;
+		right: unset;
+		top: unset;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+@media (max-width: 991px) {
+	.module-team.style-1 .ry-flex.block-count-3,
+	.module-team.style-1 .ry-flex.block-count-2 {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.module-team.style-1 .ry-flex.block-count-3 .ry-each,
+	.module-team.style-1 .ry-flex.block-count-2 .ry-each {
+		width: calc(80% - 10px);
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 480px) {
+	.module-team.style-1 .section-headline h2 {
+		font-size: 42px;
+	}
+	.module-team.style-1 .ry-text p,
+	.module-team.style-1 .ry-btn {
+		font-size: 18px !important;
+	}
+	.module-team.style-1 .ry-flex.block-count-3 .ry-each,
+	.module-team.style-1 .ry-flex.block-count-2 .ry-each {
+		width: calc(100% - 10px);
+	}
+}
+@media (max-width: 420px) {
+	.module-team.style-1 .section-headline h2 {
+		font-size: 36px;
+	}
+	.module-team.style-1 .ry-text p,
+	.module-team.style-1 .ry-btn {
+		font-size: 16px !important;
+	}
+}

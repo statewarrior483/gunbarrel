@@ -1,0 +1,194 @@
+/* STYLE 7 */
+
+.module-welcome.style-7 .background-section, 
+.module-welcome.style-7 .background-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.module-welcome.style-7 .background-section {
+	overflow:hidden;
+}
+
+.module-welcome.style-7:before {
+    content: "";
+    position: absolute;
+    top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #fff, transparent);
+	z-index: 1;
+	opacity: 1;
+}
+
+.module-welcome.style-7 {
+	padding: 110px 0;
+}
+
+
+.module-welcome.style-7 .ry-flex {
+	align-items: center;
+	gap: 30px;
+}
+
+.module-welcome.style-7 .ry-container {
+	max-width: 1400px;
+	width: 90%;
+	z-index: 99;
+}
+
+.module-welcome.style-7 .ry-flex .ry-each.image-wrapper {
+	max-width: 600px;
+	width: 45%;
+}
+
+
+.module-welcome.style-7 .ry-flex .ry-each.image-wrapper .photo {
+	position: relative;
+	padding-bottom: 140%;
+	height: 0;
+}
+
+.module-welcome.style-7 .ry-flex .ry-each.image-wrapper .photo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.module-welcome.style-7 .ry-headline h2 {
+	font-size: 58px;
+	font-family: Poppins;
+	color: #5e718b !important;
+	font-weight: 500;
+	text-align: center;
+}
+
+.module-welcome.style-7 .ry-text p {
+	margin: 30px 0 40px;
+}
+
+.module-welcome.style-7  .text-wrapper {
+	max-width: 600px;
+}
+.module-welcome.style-7 .button-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.module-welcome.style-7 .button-wrapper .ry-btn {
+	width: calc(50% - 5px);
+	max-width: 100%;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 260px;
+}
+.module-welcome.style-7 .ry-flex .ry-each.image-wrapper .photo {
+    overflow: hidden;
+	transform: translate(6%, 5%);
+    box-shadow: 0 0 40px rgb(0 0 0 / 15%);
+}
+.module-welcome.style-7 .ry-flex .ry-each.image-wrapper {
+    padding: 0px;
+	border: 2px solid #5e718b;
+}
+.module-welcome.style-7 .ry-text p {
+    color: #000;
+    font-size: clamp(1.0625rem, 1.0268rem + 0.1786vw, 1.1875rem);
+}
+.module-welcome.style-7 .ry-flex .ry-each.image-wrapper:before {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 50vw;
+    background: linear-gradient(to right, transparent, #5e718b99);
+    top: 56%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+@media (max-width: 1680px) {
+	.module-welcome.style-7 .ry-each h2 {
+		font-size: 50px;
+	}
+}
+@media (max-width: 1480px) {
+	.module-welcome.style-7 .ry-each:not(.image-wrapper) {
+		max-width: 40%;
+		padding-right: 60px;
+	}
+	.module-welcome.style-7 .ry-each.image-wrapper {
+		max-width: 60%;
+	}
+
+}
+@media (max-width: 1080px) {
+	.module-welcome.style-7 {
+		padding: 60px 0;
+	}
+	.module-welcome.style-7 .ry-flex {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.module-welcome.style-7 .ry-each:not(.image-wrapper) {
+		max-width: 100%;
+		padding: 0;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	.module-welcome.style-7 .ry-each .ry-text p,
+	.module-welcome.style-7 .ry-each h2 {
+		text-align: center;
+	}
+	.module-welcome.style-7 .ry-each h2 {
+		font-size: 46px;
+	}
+	.module-welcome.style-7 .ry-each .ry-btn {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.module-welcome.style-7 .ry-each.image-wrapper {
+		max-width: 100%;
+		padding-top: 30px;
+	}
+	.module-welcome.style-7 .ry-each.image-wrapper .photo.offset {
+		max-width: 80%; 
+	}
+}
+@media (max-width: 680px) {
+	.module-welcome.style-7 .ry-flex .ry-each.image-wrapper {
+		width: 80%;
+	}
+}
+@media (max-width: 480px) {
+	.module-welcome.style-7 .ry-each h2 {
+		font-size: 42px;
+	}
+	.module-welcome.style-7 .ry-each .ry-text p,
+	.ry-btn {
+		font-size: 18px !important;
+	}
+}
+@media (max-width: 420px) {
+	.module-welcome.style-7 .ry-each h2 {
+		font-size: 36px;
+	}
+	.module-welcome.style-7 .ry-each .ry-text p,
+	.ry-btn {
+		font-size: 16px !important;
+	}
+}
+
+/* END STYLE 7 */

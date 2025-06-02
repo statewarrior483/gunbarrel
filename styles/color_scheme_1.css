@@ -1,0 +1,371 @@
+/* ------- START COLOR-SCHEME ------- */
+/************************************************
+  SET COLOR SCHEME FROM MOCKUP OR REQUESTED COLORS
+*************************************************/
+/**********************************************
+  COLOR SETTINGS DECLARATION
+  NOTE: This class is used for extension
+  e.g @extend .primary-c;
+***********************************************/
+.primary-bg, body ul.pagination li.active a, body ol.pagination li.active a, body ul.pagination li.active a:hover, body ol.pagination li.active a:hover, .ry-tabs .nav-tabs li.active > a, #mobile_menu, .mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, body ul.pagination li:before, body ol.pagination li:before, .module-22 .btn.btn-primary, .module-22 .btn.ry-btn-primary, .module-19 .btn.btn-primary, .module-19 .btn.ry-btn-primary, .module-20 .btn.btn-primary, .module-20 .btn.ry-btn-primary, .module-21 #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn, .module-21 .btn.btn-primary, .module-21 .btn.ry-btn-primary, .ry-btn, .ry-btn.ry-btn-primary, .pagination li.active > a, .mobile-container.style2 .mobile-button a, .module-14 .item .card .slide-text-wrap .btn-wrap .btn:hover, .module-14.style2 .item .card .slide-text-wrap .btn-wrap .btn:hover, .module-19 .card-holder .img-frame .anchor .anchor-link, .module-20 .slider-controller .ry-slider-nav .slider-btn:hover, .module-20.style2 .slider-controller .ry-slider-nav .slider-btn:hover, .module-32, .module-16 #footer-row1 .social-inner-wrap li, .module-16.style2 #footer-row1 .social-inner-wrap li, #ry-sidebar .ry-sb-title, body.default #ry-section-header.module-43, .ry-btn.ry-btn-secondary:hover, #ry-sidebar #accordion .ry-drop-nav ul, #menu_container, .module-17, .module-17 .title-box {
+  background: #e2a55e; }
+
+body.default #ry-section-header.module-43 {
+	background: #e2a55e;
+}
+
+.anchor-link {
+	background-color: #5e718b !important; }
+
+.primary-bga, .module-18 .ry-content .card:hover .anchor-wrap, .module-20 .slider-bg-wrap:before {
+	background: #e2a55e; opacity: .5; }
+
+.primary-c, body a, body a:hover, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-title a, #ry-sidebar .ry-link-wrp .ry-link-item a:hover, #ry-sidebar #accordion .ry-link-item.open > a, .ry-accordion .ry-heading.ui-state-active, .module-14 .item .card .slide-text-wrap .btn-wrap .btn, .module-22 .ry-generic .title-wrap .ry-heading, .module-19 .ry-generic .title-wrap .ry-heading, .module-20 .ry-generic .title-wrap .ry-heading, .module-32 .module-32-heading .ry-section-title, .module-16 #footer-row1 .card .card-title .ry-heading, .module-16.style2 #footer-row1 .card .card-title .ry-heading, #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1, body h1, body h2, body h3, body h4, body h5, body h6, #ry-sidebar #searchfield button, .module-16 #footer-row1 .card .card-body .ry-footer-detail a:hover, .module-16 #footer-row2 a:hover, .module-17 .title-box, .ry-instagram .ry-heading, .module-327 .review-box .review-text {
+  color: #5e718b; }
+
+.secondary-bg, #ry-sidebar #accordion .ry-link-item.open:before, .mobile-container, .mobile-container.fixed, .module-22 .btn.btn-primary:hover, .module-22 .btn.ry-btn-primary:hover, .module-19 .btn.btn-primary:hover, .module-19 .btn.ry-btn-primary:hover, .module-20 .btn.btn-primary:hover, .module-20 .btn.ry-btn-primary:hover, .module-21 #ry-slider.req-appointment-slider .ry-slider-nav .slider-btn:hover, .module-21 .btn.btn-primary:hover, .module-21 .btn.ry-btn-primary:hover, .ry-btn:hover, .ry-btn.ry-btn-primary:hover, .ry-btn.ry-btn-secondary, #ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-btn, .pagination li.active > a:hover, .module-43 .ry-right .ry-leads .ry-contact li .contact__overlay, .module-15 .right .__subs, .module-15 .right .__subs.search .search-bar-widget .btn, .module-19 .card-holder .img-frame .anchor:hover .anchor-link, .module-20 .slider-controller .ry-slider-nav .slider-btn, .module-16 #footer-row1 .social-inner-wrap li:hover, .module-16.style2 #footer-row1 .social-inner-wrap li:hover, #ry-sidebar .ry-link-wrp .ry-link-item.active, #menu_container .mm-listview li:hover, .module-19 .btn:hover, .module-20 .btn:hover, .module-22 .btn:hover, .module-23 .ry-icon-wrp {
+  background: #5e718b; }
+
+.secondary-bga, #ry-sidebar #accordion .ry-drop-nav ul li a.active, #ry-sidebar #accordion .ry-drop-nav ul li a:hover {
+  background: rgba(39, 39, 39, 0.8); }
+
+.secondary-c, #ry-sidebar #accordion .ry-link-item ul a.active, .module-43 .ry-right .ry-menu .nav-menu li a:hover, .module-327 .review-box h6, .module-327 .review-box a, .landing-page #landing-review .rev-title h4 {
+	color: #FFF;
+	
+}
+
+.tertiary-bg, .module-20.style2 .slider-controller .ry-slider-nav .slider-btn, .module-21 {
+  background: #333333; }
+
+.tertiary-bga {
+  background: rgba(51, 51, 51, 0.8); }
+
+.tertiary-c, .module-20.style2 .dr-name h4, .module-16 #footer-row1 .card .card-body .ry-footer-detail a {
+  color: #333333; }
+
+.gray, .ry-tabs .nav-tabs li a, .ry-search button.btn-primary, .module-15 .right .__subs:hover .form-control::-webkit-input-placeholder, .module-15.style2 .right .__subs:hover .form-control::-webkit-input-placeholder, .module-16 #footer-row2 a, .module-19 .btn, .module-20 .btn, .module-22 .btn, .module-327 .rating-copy.pg-copy h3 {
+  color: #666666; }
+
+.gray, .ry-tabs .nav-tabs li a, .ry-search button.btn-primary, .module-15 .right .__subs:hover .form-control:-ms-input-placeholder, .module-15.style2 .right .__subs:hover .form-control:-ms-input-placeholder, .module-16 #footer-row2 a, .module-19 .btn, .module-20 .btn, .module-22 .btn, .module-327 .rating-copy.pg-copy h3 {
+  color: #666666; }
+
+.gray, .ry-tabs .nav-tabs li a, .ry-search button.btn-primary, .module-15 .right .__subs:hover .form-control::-ms-input-placeholder, .module-15.style2 .right .__subs:hover .form-control::-ms-input-placeholder, .module-16 #footer-row2 a, .module-19 .btn, .module-20 .btn, .module-22 .btn, .module-327 .rating-copy.pg-copy h3 {
+  color: #666666; }
+
+.gray, .ry-tabs .nav-tabs li a, .ry-search button.btn-primary, .module-15 .right .__subs:hover .form-control::placeholder, .module-15.style2 .right .__subs:hover .form-control::placeholder, .module-16 #footer-row2 a, .module-19 .btn, .module-20 .btn, .module-22 .btn, .module-327 .rating-copy.pg-copy h3 {
+  color: #666666; }
+
+.gray-bg, .module-16 #footer-row1 .card .card-body .ry-footer-detail::before {
+  background: #5e718b; }
+
+/**********************************************
+  STATIC COLOR DECLARATION
+  NOTE: This Place holders is used as a static
+  colors that we can use to modify the default
+  classes. You can Also ignore it!
+***********************************************/
+body .search-result, body .description, body ul.pagination li > a, body ol.pagination li > a, .ry-list-wrp .ry-list-item .ry-list-content .ry-list-excerpt, #ry-sidebar .ry-link-wrp .ry-link-item a, body, .ry-form.ry-form-box input[type="text"], .ry-form.ry-form-box textarea, .module-24 .ry-each h5, .module-20 .dr-name h4 {
+  color: #666666; }
+
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .ry-btn.ry-btn-primary, .ry-btn.ry-btn-primary:after, .ry-btn.ry-btn-primary:before, .ry-btn.ry-btn-secondary, .ry-btn.ry-btn-secondary:after, .pagination li.active > a, .pagination li.active > a:hover, .module-43 .ry-right .ry-menu .nav-menu li a, .module-43 .ry-right .ry-leads .ry-contact li span.call_us, .module-43 .ry-right .ry-leads .ry-contact li a, .module-43.style2 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-16 #footer-row1 .social-inner-wrap li, #ry-sidebar #accordion .ry-drop-nav ul li a, #ry-sidebar #accordion .ry-drop-nav ul li a.active, .module-15 .right .__subs.phone a, .module-15 .right .__subs.appointment a, .module-16 #footer-row1 .social-inner-wrap li a, .ry-instagram #instafeed .flex-item .overlay:before, .module-43.ry-sticky-menu .ry-menu .nav-menu li a, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) span.call_us, .module-43 .ry-right .ry-leads .ry-contact li:nth-child(2) a {
+  color: #FFFFFF; }
+
+.white-bg, .mobile-container .mobile-nav button .hamburger-inner, .mobile-container .mobile-nav button .hamburger-inner:before, .mobile-container .mobile-nav button .hamburger-inner:after, .module-16 #footer-row1, #ry-sidebar #accordion .ry-drop-nav.open, .module-15 .right .__subs:hover, .module-17 .title-box, .module-23 .ry-each {
+  background: #FFFFFF; }
+
+.white-bga, .module-18.style2 .ry-content .card .anchor-wrap {
+  background: #e2a55e; }
+
+.black-c, .module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu li a {
+  color: #000; }
+
+.black-bg {
+  background: #000; }
+
+.black-bga, .module-18 .ry-content .card .anchor-wrap {
+  background: #e2a55e77; }
+
+/**********************************************
+  HOMEPAGE SECTIONS COLOR SETTINGS
+***********************************************/
+/*Classic Header*/
+.module-43 .ry-right .ry-menu .nav-menu li .dropdown-menu {
+  background: none; }
+
+/* header style 2*/
+.module-43.style2 .ry-right .ry-menu .nav-menu li a:hover {
+  color: #272727; }
+
+.module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu {
+  background: #272727; }
+
+.module-43.style2 .ry-right .ry-leads .ry-contact li .contact__overlay {
+  background-color: #272727; }
+
+.module-43.style2 .ry-right .ry-leads .ry-contact li span.call_us {
+  color: #272727; }
+.module-44 .ry-divisorHOLD, .module-44 .ry-footer-copyright .ry-container {
+    border-top: 2px solid #e2a55e;
+}
+.mobile-container .flex-wrap .flex-item.right-nav .mobile-button a, #menu_container .mm-listview .mob-menu a:hover, .mm-panel .mob-menu a:hover, #ry-sidebar .ry-sb-title, .white-c, body ul.pagination li.active a, body ol.pagination li.active a, .ry-tabs .nav-tabs li.active > a, .ry-indicator .ry-play-btn:before, .ry-indicator .ry-pause-btn:before, .module-43 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li a, .module-43.style2 .ry-right .ry-menu .nav-menu li .dropdown-menu li a, .module-44 .ry-flex .ry-each a, #ry-pg-body .ry-left .module-4 .ry-each a, #ry-pg-body .ry-left .ry-tabs .nav-tabs li.active a, #ry-sidebar #accordion .ry-drop-nav ul li a, .module-44, .module-44 .ry-footer-copyright, .module-44 .ry-footer-copyright p, .module-44 .ry-footer-copyright a, .ry-instagram #instafeed .flex-item .overlay:before {
+    color: #fff;
+}
+/* header */
+.module-15 {
+  background: #5e718b55; }
+
+/*header style 2*/
+.module-15.style2 {
+  background: transparent; }
+  body.default .module-15.style2 {
+    background: rgba(0, 0, 0, 0.8); }
+
+.module-15.style2 .right .__subs {
+  background: #5e718b !important; }
+
+.module-15.style2 .right .__subs:hover, .module-15.style2 .right .__subs:hover .btn, .module-15.style2 .right .__subs.search .search-bar-widget:hover .form-control .btn {
+  background: #fff !important; }
+
+.module-15.style2 .right .__subs.search .search-bar-widget .btn {
+  background: #5e718b; }
+
+/* hero */
+.module-14 .item .card .slide-text-wrap .big-title h1 {
+	color: #FFFFFF; }
+
+.module-14 .item .card .slide-text-wrap .sub-title {
+  color: #fff; }
+
+.module-14 .item .card .slide-text-wrap .btn-wrap .btn {
+  background: #fff; }
+
+.module-14 .item .card .slide-text-wrap .btn-wrap .btn:hover {
+  color: #fff; }
+
+/*hero style 2*/
+.module-14.style2 .item .card .slide-text-wrap .btn-wrap .btn {
+  background: #fff; }
+
+/*homepage cta*/
+.module-18 .ry-content .card .overlay .overlay-border {
+  border: 1px solid white; }
+
+.module-18 .ry-content .card .anchor-wrap, .module-18 .ry-content .card .anchor-wrap a {
+  color: #FFFFFF; }
+
+.module-18.style2 .ry-content .card .anchor-wrap:hover {
+  background: rgba(39, 39, 39, 0.8); }
+
+.module-18.style2 .ry-content .card .anchor-wrap a {
+  color: #FFFFFF; }
+  .module-18.style2 .ry-content .card .anchor-wrap a:hover {
+    color: #fff; }
+
+.module-18.style2 .ry-content .card .anchor-wrap a:after {
+  background: #e2a55e;
+  color: #FFFFFF; }
+  .module-18.style2 .ry-content .card .anchor-wrap a:hover:after {
+    background: transparent; }
+
+/*homepage welcome*/
+.module-22 .btn.btn-primary, .module-22 .btn.ry-btn-primary {
+  color: #FFFFFF;
+background-color: #5e718b;}
+
+.module-22 .btn.btn-primary:hover, .module-22 .btn.ry-btn-primary:hover {
+  color: #FFFFFF;
+background: #e2a55e;
+border: 1px solid #FFFFFF;}
+
+/*homepage welcome style2*/
+.module-22.style2 .ry-heading {
+  color: #FFFFFF !important; }
+
+.module-22.style2 .welcome-img {
+  border-color: #5e718b; }
+
+.module-22.style2 .btn-primary {
+  background: #5e718b; }
+
+.module-22.style2 .btn-primary:hover {
+  background: #272727; }
+
+/*homepage services */
+.module-19 .btn.btn-primary, .module-19 .btn.ry-btn-primary {
+  color: #FFFFFF; }
+
+.module-19 .btn.btn-primary:hover, .module-19 .btn.ry-btn-primary:hover {
+  color: #FFFFFF;
+background: #e2a55e;
+border: 1px solid #FFFFFF; }
+
+/*homepage services style2*/
+.module-19.style2 .ry-heading {
+  color: #5e718b !important; }
+
+.module-19.style2 .btn-primary {
+  background: #5e718b; }
+
+.module-19.style2 .btn-primary:hover {
+  background: #272727; }
+
+.module-19.style2 .services-frame .frame {
+  background: #5e718b; }
+
+.module-19.style2 .services-frame .frame:nth-child(even) {
+  background: #5e718b; }
+
+/* homepage team */
+.module-20 .btn.btn-primary, .module-20 .btn.ry-btn-primary {
+  color: #FFFFFF; }
+
+.module-20 .btn.btn-primary:hover, .module-20 .btn.ry-btn-primary:hover {
+  color: #FFFFFF;
+background: #e2a55e;
+border: 1px solid #FFFFFF; }
+
+/* homepage team style2 */
+.module-20.style2 .ry-heading {
+  color: #FFFFFF !important; }
+
+.module-20.style2 .btn-primary {
+  background: #5e718b; }
+
+.module-20.style2 .btn-primary:hover {
+  background: #272727; }
+
+.module-20.style2:after {
+  background: rgba(39, 39, 39, 0.9); }
+
+/* homepage request appointment */
+.module-21 .title-wrap .ry-heading {
+  color: #fff; }
+
+.module-21, .module-21 .content-wrap p {
+  color: #fff; }
+
+.module-21 .btn.btn-primary, .module-21 .btn.ry-btn-primary {
+  color: #fff; }
+
+.module-21 .btn.btn-primary:hover, .module-21 .btn.ry-btn-primary:hover {
+  color: #fff; }
+
+/* homepage request appointment style2 */
+.module-21.style2 {
+  background: #e2a55e !important; }
+
+.module-21.style2 .ry-heading {
+  color: #FFFFFF; }
+
+/* homepage brands */
+.module-32 .module-32-heading .ry-section-title {
+  background-color: #fff; }
+
+.module-32 .module-32-heading-2 .ry-section-title {
+  color: rgba(255, 255, 255, 0.5); }
+
+.module-32 .swiper-pagination-bullet {
+  background-color: #fff; }
+
+.module-32 .swiper-pagination-bullet-active {
+  background-color: #fff; }
+
+.module-32 .swiper-button-prev:before, .module-32 .swiper-button-next:before {
+  color: #fff; }
+
+/*homepage brands style 2 */
+.module-32.style2 {
+  background: #333333; }
+
+.module-32.style2 .module-32-heading .ry-section-title {
+  background: #272727; }
+
+/* homepage footer */
+.module-16 {
+  background: transparent; }
+
+.module-16 #footer-row1 .card .card-body .ry-footer-detail::before {
+  color: #FFFFFF; }
+
+/* homepage footer style2 */
+.module-16.style2 {
+  background: #272727; }
+
+/* SIDEBAR */
+#ry-sidebar .ry-sb-cta .ry-cta-wrp .ry-btn:hover {
+  background: #5e718b !important; }
+
+/* HEADER STYLE 5 */
+.module-34 {
+  background-color: #5e718b; }
+
+.module-34 .ry-btn-module-34 {
+  color: #fff; }
+
+.module-34 .ry-btn-module-34 {
+  background-color: #e2a55e; }
+
+.module-34 .ry-btn-module-34:hover, .module-195 .ry-btn-module-195:hover {
+  background-color: #FFFFFF; }
+
+.module-34 .ry-btn-module-34:hover, .module-195 .ry-btn-module-195:hover {
+  background-color: #5e718b; }
+
+.module-34 .ry-btn-module-34 {
+  border-color: #FFFFFF; }
+
+.module-34 .ry-btn-module-34:hover, .module-195 .ry-btn-module-195:hover {
+	color: #FFFFFF;
+  border-color: #e2a55e; }
+
+.module-34 .module-34-bot {
+  border-color: #FFFFFFab; }
+
+.module-34 .ry-menu a {
+  color: #FFFFFF; }
+
+.module-34 .ry-menu .dropdown-menu {
+  background: #5e718b; }
+
+.module-34 .ry-menu .dropdown-menu a {
+  background: none; }
+
+.module-34 .ry-menu .dropdown-menu a:hover {
+  background: #FFFFFF; }
+
+.module-34 .ry-menu .dropdown-menu a {
+  color: #000; }
+
+.module-34 .ry-menu a:hover, .module-34 .ry-menu .dropdown-menu a:hover {
+  color: #e2a55e; }
+
+.module-35 .module-35-header-container {
+  background: #5e718b; }
+
+.module-35 .mobile-button a {
+  background: #fff; }
+
+.module-35 .mobile-button a {
+  background: #fff; }
+
+.module-35 .mobile-button a {
+  color: #5e718b; }
+
+.module-35 .mobile-nav .hamburger-inner, .module-35 .mobile-nav .hamburger-inner:before, .module-35 .mobile-nav .hamburger-inner:after {
+  background-color: #fff; }
+
+.module-35.style2 .module-35-header-container {
+  background: #5e718b; }
+
+.module-35.style2 .mobile-button a {
+  color: #FFFFFF; }
+
+/* END HEADER STYLE 5 */
+
+/**********************************************
+  INSIDE PAGE COLOR SETTINGS
+***********************************************/
+/**********************************************
+  AMP COLOR SETTINGS
+***********************************************/
+/* ------- END COLOR-SCHEME ------- */

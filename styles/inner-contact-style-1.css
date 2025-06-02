@@ -1,0 +1,283 @@
+.contact-template p {
+	line-height: 1.5;
+}
+
+.contact-template.style-1 {
+	padding-top: 0 !important;
+}
+.contact-template.style-1 .map-wrapper .map-ratio #mapCustomstyle1 {
+	padding-bottom: 600px;
+}
+
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .form-control,
+.contact-template.style-2 .contact-form .ry-form-box-wrapper .form-control {
+	height: 65px;
+	border-radius: unset;
+	box-shadow: unset;
+	padding-left: 25px;
+	font-size: 18px;
+}
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .form-group,
+.contact-template.style-2 .contact-form .ry-form-box-wrapper .form-group {
+	margin-bottom: 10px;
+}
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .field-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	width: calc(100% + 10px);
+}
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .field-wrapper .field-xs{
+	width: calc(33.33% - 10px);
+	margin-left: 10px;
+}
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .field-wrapper .field-lg {
+	width: calc(100% - 10px);
+	margin-left: 10px;
+}
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .field-wrapper textarea.form-control,
+.contact-template.style-2 .contact-form .ry-form-box-wrapper .field-wrapper textarea.form-control {
+	height: 290px;
+	padding-top: 15px;
+	resize: unset;
+}
+
+.contact-template.style-1 .contact-form .ry-form-box-wrapper .ry-btn {
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+.contact-template.style-1 .contact-form .section-headline h2 {
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+	font-size: calc(30px + 10 * ((100vw - 500px) / 940)) !important;
+}
+
+.contact-template.style-1 .contact-form .section-headline {
+	margin-bottom: 30px;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex {
+	display: flex;
+	align-items: center;
+	padding: 35px;
+	border-radius: 20px;
+	background: linear-gradient(to bottom, #f4f4f4, #eaeaea);
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text {
+	display: flex;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 300;
+}
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text {
+	align-items: center;
+}
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper {
+	padding-left: 0;
+	list-style: none;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper .social-inner-wrap {
+	display: flex;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper .social-inner-wrap li:not(:last-child) {
+	margin-right: 5px;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper .social-inner-wrap li a {
+	width: 35px;
+	height: 35px;
+	background: #373737;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper .social-inner-wrap li a svg {
+	width: 16px;
+	fill: #fff;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each .icon {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #373737;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each .icon svg {
+	fill: #fff;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each .ry-text p {
+	font-weight: 400;
+	text-align: left;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text a, 
+.contact-details .ry-container .ry-flex .ry-text p {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .span-1 {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.phone .ry-text p,
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.hour .ry-text p {
+	font-size: 15px;
+	text-transform: uppercase;
+	min-width: 85px;
+}
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.phone .ry-text {
+	flex-direction: column;
+}
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.phone .ry-text a {
+	font-size: 23px;
+	font-weight: bold;
+	color: #373737;
+}
+.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.hour .ry-text p {
+	margin-right: 10px;
+}
+
+.contact-template.style-1 .contact-details {
+	margin-top: -60px;
+	margin-bottom: 7vw;
+}
+
+
+
+@media (max-width: 1199px) {
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text {
+		font-size: 16px;
+	}
+
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.phone .ry-text p, 
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.hour .ry-text p {
+		font-size: 14px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.phone .ry-text a {
+		font-size: 20px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex {
+		flex-direction: initial !important;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text {
+		flex-direction: column;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text p {
+		text-align: left;
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 2px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each {
+		max-width: max-content;
+	}
+}
+
+@media (max-width: 1080px) {
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text p {
+		margin-bottom: 2px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text {
+		flex-direction: column;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex {
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each .icon {
+		width: 40px;
+		min-width: 40px;
+		height: 40px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper .social-inner-wrap li a {
+		width: 32px;
+		height: 32px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text .custom-social-wrapper .social-inner-wrap li a svg {
+		width: 14px;
+		fill: #fff;
+	}
+}
+@media (max-width: 768px) {
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text p {
+		text-align: center;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.phone .ry-text p, 
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each.hour .ry-text p {
+		font-size: 16px;
+	}
+	.contact-template.style-1 p {
+		font-size: 16px !important;
+		line-height: 1.5 !important;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex {
+		flex-direction: column !important;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each {
+		flex-basis: 100% !important;
+		max-width: 100%;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text p {
+		margin-right: 0;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:nth-child(3) .ry-text {
+		margin-top: 0;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-text {
+		text-align: center;
+	}
+	.contact-template.style-1 .contact-details .ry-container .ry-flex .ry-each .icon {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.contact-template.style-1 .contact-form .ry-form-box-wrapper .form-control {
+		height: 60px;
+		font-size: 16px;
+		padding-left: 20px;
+	}
+	.contact-template.style-1 .contact-form .ry-form-box-wrapper .field-wrapper .field-xs {
+		width: calc(100% - 10px);
+	}
+	.contact-template.style-1 .map-wrapper .map-ratio #mapCustom {
+		padding-bottom: 55vh;
+	}
+}
+
+.form-group.required.has-error input{
+    border: 1px solid #ff004f;
+}

@@ -1,0 +1,154 @@
+/* Testimonial Button */
+.module-testimonials.option-2 {
+	padding: 11vw 0 110px;
+	/*background-color: #e2a55e;*/
+}
+.module-testimonials.option-2:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 415px;
+	background: #eee;
+	background-size: cover;
+}
+.module-testimonials.option-2 .section-headline h2 {
+	text-transform: uppercase;
+	font-size: 230%;
+	max-width: 680px;
+	line-height: 1.1;
+	margin: 0 auto 30px;
+}
+.module-testimonials.option-2 .section-headline .star-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.module-testimonials.option-2 .section-headline .star-wrapper svg {
+	width: 30px;
+	fill: #f3c62b;
+	margin: 0 6px;
+}
+
+.module-testimonials.option-2 .testimonial-banner-type {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex {
+	max-width: 1280px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) {
+	max-width: 540px;
+	width: 44%;
+}	
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) .photo {
+	position: relative;
+	padding-bottom: 100%;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) .photo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(2) {
+	width: 60%;
+	padding: 85px 0 110px;
+	background: #5e718b;
+	max-width: calc(100% - 540px);
+	display: flex;
+	align-items: center;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .icon img {
+	width: 50px;
+	margin: 0 auto;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .section-headline-block {
+	padding: 0 4.2vw 0;
+	clear: both;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .section-headline-block h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 34px;
+	padding: 30px 0 40px;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .section-headline-block h3 span {
+	display: block;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .ry-btn {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	max-width: max-content;
+	background: #fff!important;
+	color: #222!important;
+}
+
+.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .ry-btn:hover {
+	background: #e2a55e!important;
+	color: #fff !important;
+}
+@media (max-width: 1680) {
+	.module-testimonials.option-2 .section-headline h2 {
+		font-size: 2.2em !important;
+		line-height: 1.1;
+	}
+}
+@media (max-width: 1280px) {
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(2) {
+		max-width: unset;
+	}
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) {
+		max-width: unset;
+		width: 40%;
+	}
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) .photo img, 
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) .photo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		padding: unset;
+	}
+}
+@media (max-width: 991px) {
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex {
+		flex-direction: column;
+	}
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(1) {
+		max-width: unset;
+		width: 100%;
+		padding-bottom: 75%;
+	}
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each:nth-child(2) {
+		width: 100%;
+	}
+	.module-testimonials.option-2 .testimonial-banner-type .ry-flex .ry-each .block-wrapper .section-headline-block h3 {
+		line-height: 1.4;
+	}
+	.module-testimonials.option-2 .section-headline .star-wrapper svg {
+		width: 25px;
+		margin: 0 3px;
+	}
+}
+
+.module-testimonials.option-2 .testimonial-banner-type .btn {
+    position: relative;
+    z-index: 9;
+}
+/* END TESTIMONIALS OPTION 2*/
